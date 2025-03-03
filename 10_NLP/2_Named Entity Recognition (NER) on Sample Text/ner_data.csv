@@ -1,0 +1,238 @@
+Text,Entity,Label
+"
+
+    techcorp a leading tech company based in new york announced on monday that ceo jane doe plans to introduce a new aipowered smartphone
+
+    the device named nexus x will debut in paris next month meanwhile critics like dr mark smith argue that the launch could impact environmental policies
+
+    the company also partnered with healthorg a nonprofit to promote digital wellness apple declined to comment on the news
+
+    the event will coincide with the global tech summit 2024
+
+    ",new york,GPE
+"
+
+    techcorp a leading tech company based in new york announced on monday that ceo jane doe plans to introduce a new aipowered smartphone
+
+    the device named nexus x will debut in paris next month meanwhile critics like dr mark smith argue that the launch could impact environmental policies
+
+    the company also partnered with healthorg a nonprofit to promote digital wellness apple declined to comment on the news
+
+    the event will coincide with the global tech summit 2024
+
+    ",monday,DATE
+"
+
+    techcorp a leading tech company based in new york announced on monday that ceo jane doe plans to introduce a new aipowered smartphone
+
+    the device named nexus x will debut in paris next month meanwhile critics like dr mark smith argue that the launch could impact environmental policies
+
+    the company also partnered with healthorg a nonprofit to promote digital wellness apple declined to comment on the news
+
+    the event will coincide with the global tech summit 2024
+
+    ",paris,GPE
+"
+
+    techcorp a leading tech company based in new york announced on monday that ceo jane doe plans to introduce a new aipowered smartphone
+
+    the device named nexus x will debut in paris next month meanwhile critics like dr mark smith argue that the launch could impact environmental policies
+
+    the company also partnered with healthorg a nonprofit to promote digital wellness apple declined to comment on the news
+
+    the event will coincide with the global tech summit 2024
+
+    ",next month,DATE
+"
+
+    techcorp a leading tech company based in new york announced on monday that ceo jane doe plans to introduce a new aipowered smartphone
+
+    the device named nexus x will debut in paris next month meanwhile critics like dr mark smith argue that the launch could impact environmental policies
+
+    the company also partnered with healthorg a nonprofit to promote digital wellness apple declined to comment on the news
+
+    the event will coincide with the global tech summit 2024
+
+    ",dr mark smith,PERSON
+"
+
+    techcorp a leading tech company based in new york announced on monday that ceo jane doe plans to introduce a new aipowered smartphone
+
+    the device named nexus x will debut in paris next month meanwhile critics like dr mark smith argue that the launch could impact environmental policies
+
+    the company also partnered with healthorg a nonprofit to promote digital wellness apple declined to comment on the news
+
+    the event will coincide with the global tech summit 2024
+
+    ",2024,DATE
+"
+
+    lionel messi the argentine footballer signed a 20 million contract with miami fc on july 15 2023
+
+    the deal was announced during a press conference at hard rock stadium in florida
+
+    fans from across south america flooded social media to celebrate the move
+
+    ",miami,GPE
+"
+
+    lionel messi the argentine footballer signed a 20 million contract with miami fc on july 15 2023
+
+    the deal was announced during a press conference at hard rock stadium in florida
+
+    fans from across south america flooded social media to celebrate the move
+
+    ",july 15 2023,DATE
+"
+
+    lionel messi the argentine footballer signed a 20 million contract with miami fc on july 15 2023
+
+    the deal was announced during a press conference at hard rock stadium in florida
+
+    fans from across south america flooded social media to celebrate the move
+
+    ",florida,GPE
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",john harper,PERSON
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",angela,PERSON
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",berlin,GPE
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",last friday,DATE
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",nato,ORG
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",the united nations,ORG
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",geneva,GPE
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",switzerland,GPE
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",december 2025,DATE
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",1420,DATE
+"
+
+    president john harper met with german chancellor angela weber in berlin last friday to discuss nato policies
+
+    the united nations will host a climate summit in geneva switzerland in december 2025
+
+    critics warn that the new tax law hb 1420 might face delays in congress
+
+    ",congress,ORG
+"
+
+    marie curie born in warsaw in 1867 discovered radium and won the nobel prize in chemistry in 1911
+
+    in the great gatsby jay gatsby hosts lavish parties in west egg new york reflecting the excesses of the jazz age
+
+    a recent study in nature journal links sleep deprivation to decreased cognitive performance
+
+    ",warsaw,GPE
+"
+
+    marie curie born in warsaw in 1867 discovered radium and won the nobel prize in chemistry in 1911
+
+    in the great gatsby jay gatsby hosts lavish parties in west egg new york reflecting the excesses of the jazz age
+
+    a recent study in nature journal links sleep deprivation to decreased cognitive performance
+
+    ",1867,DATE
+"
+
+    marie curie born in warsaw in 1867 discovered radium and won the nobel prize in chemistry in 1911
+
+    in the great gatsby jay gatsby hosts lavish parties in west egg new york reflecting the excesses of the jazz age
+
+    a recent study in nature journal links sleep deprivation to decreased cognitive performance
+
+    ",1911,DATE
+"
+
+    marie curie born in warsaw in 1867 discovered radium and won the nobel prize in chemistry in 1911
+
+    in the great gatsby jay gatsby hosts lavish parties in west egg new york reflecting the excesses of the jazz age
+
+    a recent study in nature journal links sleep deprivation to decreased cognitive performance
+
+    ",west egg,GPE
+"
+
+    marie curie born in warsaw in 1867 discovered radium and won the nobel prize in chemistry in 1911
+
+    in the great gatsby jay gatsby hosts lavish parties in west egg new york reflecting the excesses of the jazz age
+
+    a recent study in nature journal links sleep deprivation to decreased cognitive performance
+
+    ",new york,GPE
