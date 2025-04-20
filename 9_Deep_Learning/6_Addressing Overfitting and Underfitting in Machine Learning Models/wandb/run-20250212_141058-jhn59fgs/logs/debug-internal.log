@@ -1,0 +1,13 @@
+{"time":"2025-02-12T14:11:01.3084847+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"d:\\Industry\\Projects\\Sprints - Ai\\12_DL\\Addressing Overfitting and Underfitting in Machine Learning Models\\wandb\\run-20250212_141058-jhn59fgs\\logs\\debug-core.log"}
+{"time":"2025-02-12T14:11:01.4751683+02:00","level":"INFO","msg":"created new stream","id":"jhn59fgs"}
+{"time":"2025-02-12T14:11:01.4751683+02:00","level":"INFO","msg":"stream: started","id":"jhn59fgs"}
+{"time":"2025-02-12T14:11:01.4751683+02:00","level":"INFO","msg":"handler: started","stream_id":"jhn59fgs"}
+{"time":"2025-02-12T14:11:01.4751683+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"jhn59fgs"}
+{"time":"2025-02-12T14:11:01.4751683+02:00","level":"INFO","msg":"sender: started","stream_id":"jhn59fgs"}
+{"time":"2025-02-12T14:11:01.9749946+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T14:11:08.4224833+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:11:08.4421069+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:11:08.4446041+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:11:08.4686475+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:15:10.8430392+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T22:39:33.6582418+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/mlahmadmostafa-/cifar100/jhn59fgs/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}

@@ -1,0 +1,56 @@
+# custom data loader
+
+from torch.utils.data import Dataset
+from PIL import Image
+import numpy as np
+from math import ceil
+import torch
+
+class CustomDataset(Dataset):
+    def __init__(self, files, transform=None, batch_size=1):
+        self.files = files
+        self.transform = transform
+        self.batch_size = batch_size
+
+    def __len__(self):
+        return ceil(len(self.files)/self.batch_size)
+
+    def __getitem__(self, index):
+        # if last batch
+        if index == self.__len__() - 1:
+            batch_size = len(self.files) - index * self.batch_size
+        else:
+            batch_size = self.batch_size
+        # create a torch tensor with batch size and image size
+        batch = torch.zeros((batch_size, 3, 416, 416), dtype=torch.float32)
+        labels = []
+        for i in range(index * batch_size, (index + 1) * batch_size):
+            current_idx = i - index * batch_size
+            img = Image.open(f'data/images/{self.files[index]}').convert('RGB')
+            if self.transform is not None:
+                img = self.transform(img)
+            batch[current_idx] = img
+            
+            
+            labels.append(parse_xml('data/annotations/'+self.files[current_idx].replace('.png', '.xml'), image_size=(416, 416)))
+        return batch, labels
+
+import torchvision.transforms as transforms
+
+transform = transforms.Compose([
+    # Randomly crop and resize the image to 416x416.
+    transforms.RandomResizedCrop(416, scale=(0.8, 1.0)),
+    # Randomly flip the image horizontally with a 50% chance.
+    transforms.RandomHorizontalFlip(),
+    # Randomly rotate the image by up to 30 degrees.
+    transforms.RandomRotation(30),
+    # Convert the image to a tensor.
+    transforms.ToTensor(),
+    # Standarize the image by subtracting the mean and dividing by the standard deviation.
+    transforms.Lambda(lambda x: (x - x.mean()) / (x.std() or 1e-8)),
+])
+
+
+train_dataset = CustomDataset(train, transform, batch_size=16)
+val_dataset = CustomDataset(val, transform, batch_size=16)
+test_dataset = CustomDataset(test, transform, batch_size=16)
