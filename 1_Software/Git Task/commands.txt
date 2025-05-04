@@ -1,0 +1,174 @@
+D:\Industry\Projects\Sprints - Ai\Git_task>git init
+Initialized empty Git repository in D:/Industry/Projects/Sprints - Ai/Git_task/.git/
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git branch
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git add .
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git commot -m "added 1.html and 2.html"
+git: 'commot' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git commit -m "added 1.html and 2.html"
+[main (root-commit) a9294e8] added 1.html and 2.html
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1.html
+ create mode 100644 2.html
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git branch branch1
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git add .
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git commit -m "added line1 to 1.html"
+[main c7b3fcc] added line1 to 1.html
+ 1 file changed, 1 insertion(+)
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git add .
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git commit -m "added line2 to 1.html"
+[main c1ba93b] added line2 to 1.html
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git branch branch1
+fatal: a branch named 'branch1' already exists
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git checkout branch1
+Switched to branch 'branch1'
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git add .
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git commit -m "Added line1 on branch 2"
+[branch1 7d65e16] Added line1 on branch 2
+ 1 file changed, 1 insertion(+)
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git checkout main
+Switched to branch 'main'
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git merge branch1
+Auto-merging 1.html
+CONFLICT (content): Merge conflict in 1.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git merge branch1
+error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git add .
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git commit -m "Files conflict fixed"
+[main 0ba6e72] Files conflict fixed
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git status
+On branch main
+nothing to commit, working tree clean
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git log
+commit 0ba6e72e39e3e8a5f5a252892dabee7ff0dbcbe9 (HEAD -> main)
+Merge: c1ba93b 7d65e16
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:48:08 2024 +0200
+
+    Files conflict fixed
+
+commit 7d65e162cfd27543b41f3619e4179ae45379993c (branch1)
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:46:40 2024 +0200
+
+    Added line1 on branch 2
+
+commit c1ba93bcd474ea1356ae521760160780f29346cc
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:45:37 2024 +0200
+
+    added line2 to 1.html
+
+commit c7b3fcc72288b3b3767ea24a3462ddc198cad927
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:45:14 2024 +0200
+
+    added line1 to 1.html
+
+commit a9294e858a73f117b4e49ed8e96e53330a690bd0
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:44:00 2024 +0200
+
+    added 1.html and 2.html
+(END)
+Merge: c1ba93b 7d65e16
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:48:08 2024 +0200
+
+    Files conflict fixed
+
+commit 7d65e162cfd27543b41f3619e4179ae45379993c (branch1)
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:46:40 2024 +0200
+
+    Added line1 on branch 2
+
+commit c1ba93bcd474ea1356ae521760160780f29346cc
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:45:37 2024 +0200
+
+    added line2 to 1.html
+
+commit c7b3fcc72288b3b3767ea24a3462ddc198cad927
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:45:14 2024 +0200
+
+    added line1 to 1.html
+
+commit a9294e858a73f117b4e49ed8e96e53330a690bd0
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:44:00 2024 +0200
+
+    added 1.html and 2.html
+Merge: c1ba93b 7d65e16
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:48:08 2024 +0200
+
+    Files conflict fixed
+
+commit 7d65e162cfd27543b41f3619e4179ae45379993c (branch1)
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:46:40 2024 +0200
+
+    Added line1 on branch 2
+
+commit c1ba93bcd474ea1356ae521760160780f29346cc
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:45:37 2024 +0200
+
+    added line2 to 1.html
+
+commit c7b3fcc72288b3b3767ea24a3462ddc198cad927
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:45:14 2024 +0200
+
+    added line1 to 1.html
+
+commit a9294e858a73f117b4e49ed8e96e53330a690bd0
+Author: ahmedmostafa2000 <ahmad.mostafa.muhamad@gmail.com>
+Date:   Sat Dec 14 15:44:00 2024 +0200
+
+    added 1.html and 2.html
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git remote add origin https://github.com/mlahmadmostafa/Sprints-ai-bootcamp.git
+
+D:\Industry\Projects\Sprints - Ai\Git_task>git push -u origin main
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (15/15), 1.22 KiB | 415.00 KiB/s, done.
+Total 15 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mlahmadmostafa/Sprints-ai-bootcamp.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+D:\Industry\Projects\Sprints - Ai\Git_task>

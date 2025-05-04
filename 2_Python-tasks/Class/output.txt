@@ -1,0 +1,5 @@
+PS C:\Users\ahmad> & C:/Users/ahmad/AppData/Local/Programs/Python/Python312/python.exe "d:/Industry/Projects/Sprints - Ai/Python-tasks/Class/1.py"
+               0             1      2
+0          Title        Author  Pages
+1  The Alchemist  Paulo Coelho    208
+PS C:\Users\ahmad>
